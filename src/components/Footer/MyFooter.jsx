@@ -45,7 +45,7 @@ export default function MyFooter() {
         </div>
         <div className="w-full bg-gray-700 px-4 py-6 sm:flex sm:items-center sm:justify-between">
           <FooterCopyright href="#" by="News Letter" year={2024} />
-          <p className="text-white">Designed and Developed by Ganesh</p>
+          <p className="text-white">Designed and Developed by &#10084; Ganesh</p>
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
             <FooterIcon href="#" icon={BsFacebook} />
             <FooterIcon href="#" icon={BsInstagram} />
