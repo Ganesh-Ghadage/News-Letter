@@ -1,7 +1,6 @@
 import axios from "axios"
 import { useState, useEffect } from "react"
-import { useDispatch, useSelector } from "react-redux"
-import { setNewsArr } from "../slices/NewsSlice"
+import { useDispatch } from "react-redux"
 
 export const reactCustomQuery = (urlPath, set, query="") => {
     const [error, setError] = useState(null)
