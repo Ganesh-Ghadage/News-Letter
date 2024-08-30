@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { Error, Headlines, Input, Loader, MyCard } from '../components'
 import { reactCustomQuery } from '../reactCustomQuery/reactCustomQuery'
