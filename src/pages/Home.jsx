@@ -51,7 +51,7 @@ function Home() {
                 </div>
             }
 
-            <div className='flex flex-wrap justify-evenly mt-2'>
+            <div className='flex flex-wrap justify-evenly gap-4 mt-2'>
                 
                 
                 {news.length > 0 ? 
